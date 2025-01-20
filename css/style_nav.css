@@ -1,0 +1,280 @@
+/*
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+*/
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('../../img/icons/loader.gif') 50% 50% no-repeat #85ef35;
+opacity: .93;
+
+}
+.web-page {
+  position: fixed;
+  width: 100%;
+  height: 87%;
+  margin-top: 70px;
+  overflow-y: auto;
+}
+
+.content {
+  margin-left: 220px;
+  width: 80%;
+  
+}
+
+.navbar-inverse {
+  width: 100%;
+  border-radius: 0;
+  
+  height: 80%;
+  background-color: #222;
+  
+  border-color: #222;
+}
+.navbar-nav{
+  overflow-y: auto;
+  max-height: 80%;
+}
+
+.nav-header {
+  width: 190px;
+  height: 100%;
+  background-color: #222;
+  position: fixed;
+  padding-top: 1%;
+  border-radius: 0;
+  z-index: 2;
+}
+
+
+
+.nav .navbar-nav {
+  background-color: white;
+}
+
+
+
+.navbar-inverse .navbar-nav>li {
+  /* Cancel default li float: left */
+  width: 139px;
+  padding-right: 0px;
+}
+
+.navbar-nav>li>ul {
+  list-style: none;
+  margin-left: 4px;
+  padding: 0px;
+}
+
+
+.navbar-nav>li>ul>li>a {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  /*color: #999;*/
+  color: #ffffff;
+  ;
+  /*background-color: #ffffff; */
+}
+
+.navbar-nav>li>ul {
+  width: 184px;
+  color: white;
+  background-color: #9d9d9d;
+  ;
+}
+
+.col-md-4 {
+  margin-bottom: 20px;
+}
+
+.form-horizontal {
+  background-color: #676b5c79;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.avatar {
+  height: 108px;
+  width: 108px;
+  margin-left: 18%;
+  background-color: #ffffff;
+  border-radius: 5.0em;
+}
+
+
+.selectpicker {
+  width: 200px;
+  height: 33px;
+  padding-left: 10px;
+  width: 289px;
+  font: 110% sans-serif;
+}
+
+.form-control {
+  width: 290px;
+}
+
+
+
+/*///////////*/
+
+.navbar-nav>.user-menu .user-image {
+  float: left;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: -2px
+}
+
+.nav.navbar-left {
+  color: white;
+  text-align: center;
+  align-content: center;
+  font-size: x-large;
+  width: 190px;
+  height: 50px;
+  background-color: #367fa9;
+  padding-top: 10px;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header {
+  height: auto;
+  padding: 10px;
+  text-align: left;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  width: 240px;
+  color: white;
+  background-color: rgb(32, 94, 211);
+}
+
+.main-header {
+  background-color: rgb(63, 125, 241);
+  position: relative;
+  max-height: 100px;
+  z-index: 3;
+}
+
+.navbar-right {
+  padding-right: 20px;
+  color: #ffffff;
+  overflow-y: unset;
+}
+
+#navbar>ul>li>a {
+  color: white;
+  list-style: none;
+}
+
+#navbar {
+  background-color: #3c8dbc;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar>ul>li>a:focus {
+  color: white;
+  list-style: none;
+  background-color: rgb(32, 94, 211);
+}
+
+
+.table-responsive {
+  margin-bottom: 60px;
+}
+
+.table-striped {
+  overflow: auto;
+  font-size: medium;
+  table-layout: fixed;
+}
+
+.table-striped>tbody>tr>td, .table-striped>thead>tr>th {
+  word-wrap: break-word;
+}
+
+.table-striped>thead>tr>th{
+  background-color:  rgb(126, 135, 139);;
+  color: black;  
+  vertical-align: top;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td{
+  background-color: #9fa8b685;
+  color: black;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td{
+  background-color: rgb(126, 135, 139);
+  color: black;
+}
+
+
+#bitac {
+  word-wrap: break-word;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#bitac>tr>th, #bitac>tr>td {
+  border: 1px solid blue;
+  width: 100px;
+  word-wrap: break-word;
+}
+
+.nav>li>a {
+  color: white;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: #eee;
+}
+
+.input-group{
+  display: inline-flex;
+}
+.footer{
+  position: fixed;
+  width: 100%;
+  height: 25px;
+  bottom: 0px;
+  z-index: 1;
+  left: 190px;
+  background-color: rgb(255 220 255);
+  color: black;
+  padding-left: 20px;
+}
+
+
+.menu-hide{
+  position: fixed;
+  z-index: 3;
+  left: 138px;
+  margin-top: 2px;
+}
+
+.menu-hide button{
+  background-color: #222;
+  border-style: none;
+}
+
+.m_icon{
+  height: 34px;
+  width: 34px; 
+}
+
